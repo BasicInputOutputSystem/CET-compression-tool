@@ -1,6 +1,6 @@
 @echo off
 set _Desk = %cd%
-set _path = "C:/Program Files/CET"
+set _path = "C:/Program Files/CET-Compression"
 md %path%
 cd %path%
 set _path += "/comp.exe"
@@ -14,4 +14,4 @@ rem install.exe
 if exist ("comp.ps1") {
     start comp.ps1
 }
-goto next
+if exist ("enc.ps1")
